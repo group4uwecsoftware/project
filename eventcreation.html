@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Post Local Event</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Post Local Event</h1>
+    </header>
+    <main>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="creation.html">Create Account</a></li>
+            <li><a href="signin.html">Sign In</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="eventcreation.html">Create Event</a></li>
+            <li><a href="message.html">Messages</a></li>
+            <li><a href="review.html">Reviews</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="main">
+          <form action="submit_event.php" method="post">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required>
+        
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required>
+        
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea>
+        
+        <input type="submit" value="Post Event">
+      </form>
+    </div>
+  </div>
+</main>
+<footer>
+  <p>&copy; 2023 Local Events</p>
+</footer>
+  </body>
+</html>
