@@ -9,7 +9,8 @@
 body{
   padding: 0 0px;
 }
-.wrapper{
+
+.wrapper {
   max-width: 500px;
   width: 100%;
   background: #fff;
@@ -44,6 +45,20 @@ body{
    margin-right: 10px;
    font-size: 14px;
 }
+
+.wrapper .form .datefield label {
+    width: 200px;
+    color: #757575;
+    margin-right: 10px;
+    font-size: 14px;
+} 
+
+.wrapper .form .timefield label {
+    width: 200px;
+    color: #757575;
+    margin-right: 10px;
+    font-size: 14px;
+} 
 
 .wrapper .form .inputfield .input,
 .wrapper .form .inputfield .textarea{
