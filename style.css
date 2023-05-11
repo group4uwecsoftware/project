@@ -24,8 +24,9 @@
 .footer {
   padding: 40px 0;
   background-color: black;
-  position: sticky;
-  top: 100%;
+  position: static;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer .social {
@@ -326,8 +327,8 @@
 
 body{
 margin:0;
-padding-bottom:0;
+height: 100%;
 font-family: 'noto_serif_displayregular';
 min-height:100vh;
-position:relative
+position:relative;
 }

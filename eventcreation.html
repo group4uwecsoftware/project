@@ -4,6 +4,7 @@
     <title>Post Local Event</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="eventcreation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   </head>
   <body>
     <header>
@@ -30,23 +31,37 @@
 
         <div class="form">
           <div class="inputfield">
-            <label>Event Name: </label>
+            <label>Name: </label>
             <input type="text" class="input">
           </div>  
 
           <div class="inputfield">
-            <label>Event Description: </label>
-            <input type="text" class="input">
+            <label>Description: </label>
+            <textarea class="textarea"></textarea>
           </div>  
 
           <div class = "datefield">
-            <label for="date">Date:</label>
-            <input type="date" id="date" name="date" required>
+            <label>Date:</label>
+            <input type="date" class="input" required>
           </div>
 
           <div class = "timefield">
             <label for="time">Time:</label>
             <input type="time" id="time" name="time" required>
+          </div>
+
+          <div class = "inputfield">
+            <label>Location: </label>
+            <input type="text" class="input" required>
+          </div>
+
+          <div class = "inputfield">
+            <label>Email: </label>
+            <input type="text" class="input" required>
+          </div>
+
+          <div class="inputfield">
+            <input type="submit" value="Submit" class="btn">
           </div>
 
         </div>
