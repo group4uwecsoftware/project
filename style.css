@@ -23,7 +23,7 @@
 
 .footer {
   padding: 40px 0;
-  background-color: black;
+  background-color: #121619;
   position: static;
   bottom: 0;
   width: 100%;
@@ -64,7 +64,7 @@
 }
 
 .footer ul li a {
-  color: white;
+  color: #F5F1E3;
   text-decoration: none;
   opacity: 0.8;
 }
@@ -319,6 +319,7 @@
   padding-top: 5vh;
   padding-left: 10vw;
   padding-right: 10vw;
+  padding-bottom: 20vh;
   font-family: 'Kaisei Decol';
   font-weight: 500;
   color: black;
