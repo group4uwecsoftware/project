@@ -3,25 +3,59 @@
   <head>
     <title>Post Local Event</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="eventcreation.css">
   </head>
   <body>
     <header>
-      <h1>Post Local Event</h1>
+      <h1>Submit an Event</h1>
+
+      <nav>
+        <ul class = nav-ul>
+          <li class = "nav-li"><a href="home.html"><b>Home</b></a></li>
+          <li class = "nav-li"><a href="events.html"><b>Events</b></a></li>
+          <li class = "nav-li"><a href="message.html"><b>Messages</b></a></li>
+          <li class = "nav-li"><a href="review.html"><b>Reviews</b></a></li>
+          <li class = "nav-li"><a href="contact.html"><b>Contact Us</b></a></li>
+          <li class = "sign"><a href="signin.html"><b>Sign In</b></a></li>
+        </ul>
+      </nav>
+
     </header>
     <main>
-      <div class="container">
-        <nav>
-          <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="creation.html">Create Account</a></li>
-            <li><a href="signin.html">Sign In</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="eventcreation.html">Create Event</a></li>
-            <li><a href="message.html">Messages</a></li>
-            <li><a href="review.html">Reviews</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </nav>
+
+      <div class="wrapper">
+        <div class="title">
+          Submit an Event
+        </div>
+
+        <div class="form">
+          <div class="inputfield">
+            <label>Event Name: </label>
+            <input type="text" class="input">
+          </div>  
+
+          <div class="inputfield">
+            <label>Event Description: </label>
+            <input type="text" class="input">
+          </div>  
+
+          <div class = "datefield">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+
+          <div class = "timefield">
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+          </div>
+
+        </div>
+      </div>
+
+    
+      <!--
+
+              <div class="container">
         <div class="main">
           <form action="submit_event.php" method="post">
             <label for="title">Title:</label>
@@ -41,10 +75,28 @@
         <input type="submit" value="Post Event">
       </form>
     </div>
+      -->
   </div>
+
 </main>
+
 <footer>
-  <p>&copy; 2023 Local Events</p>
+  <section class="footer">
+    <div class="social">
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-snapchat"></i></a>
+        <a href=""><i class="fab fa-facebook-f"></i></a>
+    </div>
+    
+    <ul class="list">
+        <li>
+            <a href="home.html">Home</a>
+        </li>
+        <li>
+            <a href="contact.html">Contact</a>
+        </li>
+    </ul>
+  </section>
 </footer>
   </body>
 </html>
